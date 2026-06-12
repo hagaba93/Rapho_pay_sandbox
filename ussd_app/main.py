@@ -1,11 +1,17 @@
 from fastapi import FastAPI, Request
+# from dotenv import load_dotenv install dotenv
+import os
+
+# load_dotenv()
 app = FastAPI()
+
+SANDBOX_API_KEY = os.getenv("SANDBOX_API_KEY")
 
 
 import requests
 import os
 
-SANDBOX_API_KEY = "atsk_93ff51f0ae230666ec14c8e0f0bafeb6d51e51cf852b4bf3d5abf0e575cc9a8399b3bf59"
+
 
 SANDBOX_URL = "https://api.sandbox.africastalking.com/version1/messaging"
 

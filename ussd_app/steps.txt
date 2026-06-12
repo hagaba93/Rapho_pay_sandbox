@@ -11,3 +11,7 @@ Call baack url: https://resale-immovable-deem.ngrok-free.dev/ussd_callback
 USSD code: *384*34647#
 
  uvicorn main2:app --reload 
+
+ loading env variables
+
+ pip install python-dotenv
