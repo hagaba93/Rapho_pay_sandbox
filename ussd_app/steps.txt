@@ -1,0 +1,13 @@
+1. sign up on Africa talking website
+go create a short code
+13441 was used
+create a fast api application
+install ngrok
+acquire the call back url
+ngrok testing: ngrok http localhost:8000
+directory: cd Documents\henry\FINTECH\"Claude projects"\ussd_app
+
+Call baack url: https://resale-immovable-deem.ngrok-free.dev/ussd_callback
+USSD code: *384*34647#
+
+ uvicorn main2:app --reload 
